@@ -6,13 +6,6 @@
 
 A production-level AI-powered chatbot specializing in yoga therapy and pain relief, powered by GPT-4 and custom fine-tuning. Used by pain patients, featured by health influencers, and approved by Yoga Alliance schools.
 
-![Chatbot Demo](./screenshots/chatbot-yinyoga-glamorous-demo.png)
-![Chatbot Default Theme](./screenshots/chatbot-yinyoga-default-demo.png)
-![App Demo UI](./screenshots/chatbot-app-demo.png)
-![Main JS Functions](./screenshots/chatbot-main-js-code.png)
-![Key Functions](./screenshots/chatbot.js-key-functions.png)
-![Creator UI](./screenshots/chatbot-custom-creator-demo.png)
-
 ---
 
 ## 🌟 Features
@@ -60,7 +53,6 @@ A production-level AI-powered chatbot specializing in yoga therapy and pain reli
 ```
 
 ### Key JavaScript Functions (`chatbot.js`)
-
 ```javascript
 // Typing effect for conversation feel
 function typeEffect(element, speed) {
@@ -87,7 +79,6 @@ function downloadResponses(filename, text) {
 ```
 
 ### API Handler (`api_handler.php`)
-
 ```php
 // Secure API key management
 switch ($action) {
@@ -142,6 +133,17 @@ Tracks user engagement, session duration, query types, theme preferences, rating
 ## 🌐 Live Demo
 
 [Try the chatbot](https://chatbot.sawbliss.com/yoga2/mc.html)
+
+---
+
+## 🖼️ Screenshots & Demo
+
+![Chatbot Demo](./screenshots/chatbot-yinyoga-glamorous-demo.png)
+![Chatbot Default Theme](./screenshots/chatbot-yinyoga-default-demo.png)
+![App Demo UI](./screenshots/chatbot-app-demo.png)
+![Main JS Functions](./screenshots/chatbot-main-js-code.png)
+![Key Functions](./screenshots/chatbot.js-key-functions.png)
+![Creator UI](./screenshots/chatbot-custom-creator-demo.png)
 
 ---
 
