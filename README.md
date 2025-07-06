@@ -89,6 +89,12 @@ switch ($action) {
 }
 ```
 
+#### Sample Code Explained
+
+- `typeEffect(element, speed)`: Animates the text so chat replies appear one character at a time, making conversations feel more human and engaging.
+- `downloadResponses(filename, text)`: Lets users instantly download their conversation as a text file, helpful for saving or reviewing sessions.
+- The API handler (PHP) securely delivers the OpenAI API key to authenticated clients only—never exposing the key on the public frontend.
+
 ---
 
 ## 🔧 Installation & Usage
